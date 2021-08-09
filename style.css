@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-top: 800px;
+}
+
+.hogwarts-pic {
+    border-radius: 50%;
+    width: 1000px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    background: linear-gradient(Blue 0%, Red 100%);
+    ;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    width: 100%;
+    height: 100%;
+    display: Table;
+    z-index: 9;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100% margin-top: 0px;
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: red;
+}
+
+#name {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    line-height: 1.2;
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: White;
+    text-shadow: 2px 2px Red;
+}
+
+.article:hover {
+    color: yellow;
+
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#Contact {
+    background: firebrick;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+
+
+}
